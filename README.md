@@ -1,0 +1,1 @@
+This is a repository for storing all of the projects I have done during the Odin Project course.
