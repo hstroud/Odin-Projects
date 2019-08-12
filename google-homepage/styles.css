@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.nav a {
+    float: right;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    display: block;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+   margin: auto;
+   margin-top: 10%;
+   height: 160px;
+   width: 272px;
+}
+
+.search-bar {
+    text-align: center;
+    height: 35px;
+}
+
+input{    
+    height:30px;
+    padding-left:25px;   
+}
+
+.search {
+    width: 30%;
+    height: 100%;
+    border: solid 0.75px rgb(214, 214, 214);
+    border-radius: 25px;
+    outline: none;
+}
