@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Functions</title>
+    </head>
+    <body>
+        <script>
+            //Add 7 to a given number.
+            function add7(input) {
+                return input + 7;
+            }
+
+            //Return the product of 2 numbers.
+            function multiply(x, y) {
+                return x * y;
+            }
+
+            //Return a given string with the first letter capitalized and the rest of the string in lower case.
+            function capitalize(input){
+                let lowerString = input.slice(1).toLowerCase();
+                let firstLetter = input.slice(0,1).toUpperCase();
+
+                return firstLetter + lowerString;
+            }
+            
+            //Return the last letter of a given string.
+            function lastLetter(input) {
+                return input.slice(-1);
+            }
+
+            console.log(add7(5));
+            console.log(capitalize("hELLO WORLD"));
+            console.log(multiply(2, 10));
+            console.log(lastLetter("Hello World"));
+        </script>
+    </body>
+</html>
