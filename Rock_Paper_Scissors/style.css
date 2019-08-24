@@ -1,0 +1,56 @@
+#displayContainer {
+    text-align: center;
+}
+
+#displayBox {
+    width: 750px;
+    display: inline-block;
+    border: 2px solid;
+}
+
+#playerBox {
+    display: inline-block;
+}
+
+#player {
+    display: inline-block;
+    margin: 0;
+}
+
+#playerScore {
+    display: inline-block;
+    padding: 0 0 0 15px;
+    margin: 0
+}
+
+#playerSelection {
+    margin: 15px 0 5px 0;
+    border: 1px solid;
+    border-radius: 25px;
+}
+
+#compBox {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+#computer {
+    display: inline-block;
+    margin: 0;
+}
+
+#computerScore {
+    display: inline-block;
+    padding: 0 0 0 15px;
+    margin: 0
+}
+
+#computerSelection {
+    margin: 15px 0 5px 0;
+    border: 1px solid;
+    border-radius: 25px;
+}
+
+
+
+
